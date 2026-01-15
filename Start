@@ -1,0 +1,107 @@
+1. Check if Python is installed
+
+Open the terminal (or Command Prompt on Windows) and type:
+
+python --version
+
+
+or
+
+python3 --version
+
+
+If something like Python 3.x.x appears, Python is installed.
+If nothing appears or it gives an error, you need to install Python from the official website:
+https://www.python.org
+
+2. Create or have the .py file of the bot
+
+The bot is saved as:
+
+bot.py
+
+3. Open the terminal in the file’s folder
+
+You must be in the same directory where the .py file is located.
+
+On Windows:
+
+Click the address bar of the folder
+
+Type cmd and press Enter
+
+On Linux or macOS:
+
+Right-click the folder
+
+Choose “Open in Terminal” or use the cd command to navigate to it
+
+4. Run the file
+
+In the terminal, type:
+
+python bot.py
+
+
+or, on some systems:
+
+python3 bot.py
+
+
+After that, Python will read the file and execute all the instructions inside it.
+
+5. If there are errors
+
+If the code has errors, Python will show messages in the terminal indicating:
+
+The line where the error happened
+
+The type of error
+
+The reason
+
+This helps you find and fix the problem.
+
+Before running the bot, you need to create it on the Discord Developer website.
+
+Go to
+https://discord.com/developers/applications
+
+Click “New Application”, give your bot a name, and create the application.
+
+Open the “Bot” tab and click “Add Bot”.
+
+There you will see the bot TOKEN.
+Copy this token. It works like the bot’s password.
+
+In the bot settings, enable the correct permissions, such as:
+
+Read Messages
+
+Send Messages
+
+Use Slash Commands (if you use them)
+
+Manage Messages (if the bot needs to delete messages)
+
+Go to OAuth2 → URL Generator, select:
+
+bot
+
+applications.commands (if you use slash commands)
+
+Then choose the permissions the bot should have in the server and copy the generated link to invite the bot.
+
+In your bot.py file, you will see something like:
+
+TOKEN = "Seu token aqui"
+
+
+Replace "Seu token aqui" with the token you copied from the Discord Developer site.
+
+Save the file and run:
+
+python bot.py
+
+
+If everything is correct, the bot will come online in your server.
