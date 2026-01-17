@@ -30,7 +30,9 @@ The bot loops through all server members and sends each one a private message, s
 * A bot created in the Discord Developer Portal
 
 ---
-
+### 🤖 Commands
+!enviardm (message)
+---
 ### 📌 Warning
 
 Use this bot responsibly. Sending mass DMs can violate Discord’s rules if abused. Only use it in servers where you have permission to contact members.
