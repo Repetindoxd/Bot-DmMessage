@@ -31,7 +31,8 @@ The bot loops through all server members and sends each one a private message, s
 
 ---
 ### 🤖 Commands
-!enviardm (message)
+
+* !enviardm (message)
 ---
 ### 📌 Warning
 
